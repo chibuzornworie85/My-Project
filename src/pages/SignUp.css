@@ -1,0 +1,351 @@
+.button{
+    background-color: skyblue;
+    text-align: center;
+    padding:  50px auto;
+    height: 100vh;
+}
+
+.quick{
+   background-color: skyblue;
+}
+
+.hap{
+    padding: 20px;
+    color: blueviolet; 
+  
+}  
+
+ .button0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+
+ .bot{
+    padding: 10px;
+ }   
+
+
+ .pit1{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+ }
+
+ .bat{
+    margin: 30px;
+    padding: 15px;
+ }
+
+ .bot1{
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+ }
+
+ .bot1 a{
+    padding: 15px;
+    color: white;
+ }
+
+.bot1 a:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 600px) {
+    .button{
+        background-color: skyblue;
+        text-align: center;
+        padding:  50px auto;
+        height: 100vh;
+    }
+    
+    .hap{
+        padding: 20px;
+        color: blueviolet; 
+      
+    }  
+    
+     .button0{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        }
+    
+     .bot{
+        padding: 10px;
+     }   
+    
+     .pit1{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+     }
+    
+     .bat{
+        margin: 30px;
+        padding: 15px;
+        text-decoration: none;
+     }
+    
+     .bot1{
+        border-radius: 8px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        background-color: blueviolet;
+     }
+    
+     .bot1 a{
+        padding: 15px;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+     }
+    
+    .bot1 a:hover{
+        color: gray;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 600px) {
+   .button{
+      background-color: skyblue;
+      text-align: center;
+      padding:  50px auto;
+      height: 100vh;
+  }
+  
+  .quick{
+     background-color: skyblue;
+  }
+  
+  .hap{
+      padding: 20px;
+      color: blueviolet; 
+    
+  }  
+  
+   .button0{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+  
+   .bot{
+      padding: 10px;
+   }   
+  
+  
+   .pit1{
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+   }
+  
+   .bat{
+      margin: 30px;
+      padding: 15px;
+   }
+  
+   .bot1{
+      border-radius: 8px;
+      padding: 10px;
+      border: none;
+      background-color: blueviolet;
+   }
+  
+   .bot1 a{
+      padding: 15px;
+      color: white;
+   }
+  
+  .bot1 a:hover{
+      color: gray;
+      cursor: pointer;
+  }
+  }
+
+
+@media screen and (min-width: 768px) {
+   .button{
+      background-color: skyblue;
+      text-align: center;
+      padding:  50px auto;
+      height: 100vh;
+  }
+  
+  .quick{
+     background-color: skyblue;
+  }
+  
+  .hap{
+      padding: 20px;
+      color: blueviolet; 
+    
+  }  
+  
+   .button0{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+  
+   .bot{
+      padding: 10px;
+   }   
+  
+  
+   .pit1{
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+   }
+  
+   .bat{
+      margin: 30px;
+      padding: 15px;
+   }
+  
+   .bot1{
+      border-radius: 8px;
+      padding: 10px;
+      border: none;
+      background-color: blueviolet;
+   }
+  
+   .bot1 a{
+      padding: 15px;
+      color: white;
+   }
+  
+  .bot1 a:hover{
+      color: gray;
+      cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 992px) {
+   .button{
+      background-color: skyblue;
+      text-align: center;
+      padding:  50px auto;
+      height: 100vh;
+  }
+  
+  .quick{
+     background-color: skyblue;
+  }
+  
+  .hap{
+      padding: 20px;
+      color: blueviolet; 
+    
+  }  
+  
+   .button0{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+  
+   .bot{
+      padding: 10px;
+   }   
+  
+  
+   .pit1{
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+   }
+  
+   .bat{
+      margin: 30px;
+      padding: 15px;
+   }
+  
+   .bot1{
+      border-radius: 8px;
+      padding: 10px;
+      border: none;
+      background-color: blueviolet;
+   }
+  
+   .bot1 a{
+      padding: 15px;
+      color: white;
+   }
+  
+  .bot1 a:hover{
+      color: gray;
+      cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+   .button{
+      background-color: skyblue;
+      text-align: center;
+      padding:  50px auto;
+      height: 100vh;
+  }
+  
+  .quick{
+     background-color: skyblue;
+  }
+  
+  .hap{
+      padding: 20px;
+      color: blueviolet; 
+    
+  }  
+  
+   .button0{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+  
+   .bot{
+      padding: 10px;
+   }   
+  
+  
+   .pit1{
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+   }
+  
+   .bat{
+      margin: 30px;
+      padding: 15px;
+   }
+  
+   .bot1{
+      border-radius: 8px;
+      padding: 10px;
+      border: none;
+      background-color: blueviolet;
+   }
+  
+   .bot1 a{
+      padding: 15px;
+      color: white;
+   }
+  
+  .bot1 a:hover{
+      color: gray;
+      cursor: pointer;
+  }
+}
