@@ -9,9 +9,7 @@ const Body = () => {
     <div className='al'>
       <div className="map">
       <div className="al3">
-      <img src={img1} alt="This is an image" style={{
-
-      }} />
+      <img src={img1} alt="This is an image"/>
       </div>
       <div className="al1">
         <div className="tip">

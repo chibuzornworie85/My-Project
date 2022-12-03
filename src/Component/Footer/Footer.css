@@ -1,5 +1,4 @@
 .footer{
-    height: 250px;
     background-color: gray;
 }
 
@@ -19,7 +18,7 @@
 }
 
 .nav1:hover{
-    color: gray;
+    color: white;
 }
 
 .col-2 ul{
@@ -33,7 +32,6 @@
 }
 
 .copy{
-    height: 5em;
     background-size: cover;
     padding: 20px;
     background-color: gray;
@@ -50,10 +48,6 @@
     padding: 20px;
 }
 
-.hr{
-    color: black;
-}
-
 .col-2 ul a{
     color: black;
 }
@@ -62,16 +56,11 @@
     margin-top: 24px;
 }
 
-@media screen and (max-width: 600px) {
-    .footer{
-     height: 100vh;
-    }
-
+@media screen and (max-width: 380px) {
     .footer1{
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: gray;
-        height: 100vh;
     }
 
     .nav1{
@@ -89,6 +78,10 @@
         font-size: 15px;
     }
 
+    .nav1:hover{
+        color: white;
+    }
+
     .para{
         display: flex;
         flex-direction: column;
@@ -98,7 +91,52 @@
     .copy{
         text-align: center;
         background-color: gray;
-        height: 150px;
+    }
+
+    .pls{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: gray;
+    }
+
+    .nav1{
+        padding: 5px;
+        line-height: 12.5px;
+        text-decoration: none;
+    }
+
+    .col-2 ul a{
+        color: black;
+    }
+
+    .yes{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .nav1:hover{
+        color: white;
+    }
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+   }
+
+    .copy{
+        text-align: center;
+        background-color: gray;
     }
 
     .pls{
@@ -111,7 +149,6 @@
 
 @media screen and (min-width: 600px) {
     .footer{
-        height: 250px;
         background-color: gray;
     }
     
@@ -131,7 +168,7 @@
     }
     
     .nav1:hover{
-        color: gray;
+        color: white;
     }
     
     .col-2 ul{
@@ -145,7 +182,6 @@
     }
     
     .copy{
-        height: 5em;
         background-size: cover;
         padding: 20px;
         background-color: gray;
@@ -162,18 +198,17 @@
         padding: 20px;
     }
     
-    .pit{
-        margin-top: 24px;
-    }
-    
     .col-2 ul a{
         color: black;
+    }
+    
+    .pit{
+        margin-top: 24px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .footer{
-        height: 250px;
         background-color: gray;
     }
     
@@ -193,7 +228,7 @@
     }
     
     .nav1:hover{
-        color: gray;
+        color: white;
     }
     
     .col-2 ul{
@@ -207,7 +242,6 @@
     }
     
     .copy{
-        height: 5em;
         background-size: cover;
         padding: 20px;
         background-color: gray;
@@ -224,18 +258,18 @@
         padding: 20px;
     }
     
-    .pit{
-        margin-top: 24px;
-    }
-    
     .col-2 ul a{
         color: black;
     }
+    
+    .pit{
+        margin-top: 24px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     .footer{
-        height: 250px;
         background-color: gray;
     }
     
@@ -255,7 +289,7 @@
     }
     
     .nav1:hover{
-        color: gray;
+        color: white;
     }
     
     .col-2 ul{
@@ -269,7 +303,6 @@
     }
     
     .copy{
-        height: 5em;
         background-size: cover;
         padding: 20px;
         background-color: gray;
@@ -286,18 +319,18 @@
         padding: 20px;
     }
     
+    .col-2 ul a{
+        color: black;
+    }
+    
     .pit{
         margin-top: 24px;
     }
     
-    .col-2 ul a{
-        color: black;
-    }
 }
 
 @media screen and (min-width: 1200px) {
     .footer{
-        height: 250px;
         background-color: gray;
     }
     
@@ -317,7 +350,7 @@
     }
     
     .nav1:hover{
-        color: gray;
+        color: white;
     }
     
     .col-2 ul{
@@ -331,7 +364,6 @@
     }
     
     .copy{
-        height: 5em;
         background-size: cover;
         padding: 20px;
         background-color: gray;
@@ -348,11 +380,11 @@
         padding: 20px;
     }
     
-    .pit{
-        margin-top: 24px;
-    }
-    
     .col-2 ul a{
         color: black;
+    }
+    
+    .pit{
+        margin-top: 24px;
     }
 }

@@ -11,17 +11,17 @@ const Body3 = () => {
       <div className="img7">
       <img src={img2}  />
       <h4 className='h4'>NEDSOFT</h4>
-      <p className='page'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Voluptas quibusdam mollitia nostrum consequuntur incidunt quaerat odio quidem totam pariatur,<br />  nulla accusantium molestiae officia eius</p>
+      <p className='page'>Lorem, ipsum dolor sit amet consectetur adipis<br /> Voluptas quibusdam mollitia nostrum consequu <br /> incidunt quaerat odio quidem totam pariatur,<br />  nulla accusantium molestiae officia</p>
       </div>
       <div className="img7">
       <img src={img1} />
       <h4 className='h4'>GEWIN</h4>
-      <p className='page'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Voluptas quibusdam mollitia nostrum consequuntur incidunt quaerat odio quidem totam pariatur,<br />  nulla accusantium molestiae officia eius</p>
+      <p className='page'>Lorem, ipsum dolor sit amet consectetur adipis<br /> Voluptas quibusdam mollitia nostrum consequu <br /> incidunt quaerat odio quidem totam pariatur,<br />  nulla accusantium molestiae officia</p>
       </div>
       <div className="img7">
       <img src={img3} />
       <h4 className='h4'>SAMMY</h4>
-      <p className='page'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Voluptas quibusdam mollitia nostrum consequuntur incidunt quaerat odio quidem totam pariatur,<br />  nulla accusantium molestiae officia eius</p>
+      <p className='page'>Lorem, ipsum dolor sit amet consectetur adipis<br /> Voluptas quibusdam mollitia nostrum consequu <br /> incidunt quaerat odio quidem totam pariatur,<br />  nulla accusantium molestiae officia</p>
       </div>
       </div>
     </div>

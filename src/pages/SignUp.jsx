@@ -5,8 +5,8 @@ import '../pages/SignUp.css'
 const SignUp = () => {
   return (
     <div>
-        <div className="quick"><Link to='/'><button>HOME</button></Link></div>
         <div className="button">
+        <div className="quick"><Link to='/'><button>HOME</button></Link></div>
         <h1 className='hap'>Create new account</h1>
             <div className="button0">
                 <div className="bot" >

@@ -1,0 +1,13 @@
+@media screen and (max-width: 380px) {
+    .link9{
+        background-color: gray;
+        height: 100vh;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .link9{
+        background-color: gray;
+        height: 100vh;
+    }   
+}

@@ -8,6 +8,10 @@
     top: 0;
 }
 
+.burger{
+    display: none;
+}
+
 .btn2{
     border-radius: 8px;
     padding: 10px;
@@ -52,12 +56,55 @@
     color: white;
 }
 
+@media screen and (max-width: 380px) {
+    .nav{
+        background-size: cover;
+        position: sticky;
+        top: 0;
+        height: 55px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .link1{
+        display: none;
+    }
+
+    .link{
+        column-gap: 0;
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .btn2{
+       font-size: 9px;
+       padding: 5px; 
+    }
+
+    .nav-logo{
+        color: blueviolet;
+        font-size: 10px;
+        font-family: fantasy;
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .nav{
         background-size: cover;
         position: sticky;
         top: 0;
         height: 55px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .link1{
+        display: none;
     }
 
     .link{

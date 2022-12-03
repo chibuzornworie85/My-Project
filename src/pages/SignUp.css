@@ -6,7 +6,8 @@
 }
 
 .quick{
-   background-color: skyblue;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .hap{
@@ -113,6 +114,66 @@
     }
 }
 
+
+@media  screen and (max-width: 380px) {
+   .button{
+       background-color: skyblue;
+       text-align: center;
+       padding:  50px auto;
+       height: 100vh;
+   }
+   
+   .hap{
+       padding: 20px;
+       color: blueviolet; 
+     
+   }  
+   
+    .button0{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       }
+   
+    .bot{
+       padding: 10px;
+    }   
+   
+    .pit1{
+       padding: 10px;
+       border-radius: 10px;
+       border: none;
+    }
+   
+    .bat{
+       margin: 30px;
+       padding: 15px;
+       text-decoration: none;
+    }
+   
+    .bot1{
+       border-radius: 8px;
+       padding: 10px;
+       border: none;
+       font-size: 18px;
+       background-color: blueviolet;
+    }
+   
+    .bot1 a{
+       padding: 15px;
+       font-size: 25px;
+       color: white;
+       text-decoration: none;
+    }
+   
+   .bot1 a:hover{
+       color: gray;
+       cursor: pointer;
+   }
+}
+
+
 @media screen and (min-width: 600px) {
    .button{
       background-color: skyblue;
@@ -122,8 +183,9 @@
   }
   
   .quick{
-     background-color: skyblue;
-  }
+   display: flex;
+   justify-content: flex-end;
+}
   
   .hap{
       padding: 20px;
@@ -182,8 +244,9 @@
   }
   
   .quick{
-     background-color: skyblue;
-  }
+   display: flex;
+   justify-content: flex-end;
+}
   
   .hap{
       padding: 20px;
@@ -241,8 +304,9 @@
   }
   
   .quick{
-     background-color: skyblue;
-  }
+   display: flex;
+   justify-content: flex-end;
+}
   
   .hap{
       padding: 20px;
@@ -300,8 +364,9 @@
   }
   
   .quick{
-     background-color: skyblue;
-  }
+   display: flex;
+   justify-content: flex-end;
+}
   
   .hap{
       padding: 20px;

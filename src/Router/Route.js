@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Burger from '../Component/Navigation/Burger'
 import About from '../pages/About'
 import Carrrers from '../pages/Carrrers'
 import Home from '../pages/Home'
@@ -18,6 +19,7 @@ const Router = () => {
       <Route path='Pricing' element={<Pricing />}/>
       <Route path='Carrers' element={<Carrrers />}/>
       <Route path='SignUp' element={<SignUp />} />
+      <Route path='Burger' element={<Burger />} />
     </Route>
    </Routes>
 

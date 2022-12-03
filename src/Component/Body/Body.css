@@ -59,21 +59,27 @@
 }
 
 .img1 img{ 
-     width: 37.5em; 
+     width: 36em; 
+     background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
+.al3 img{
+    width: 36em;
+    background-size: cover;
+}
+
+@media screen and (max-width: 380px) {
     .al{
         height: 55em;
         background-color: gray;
     }
     .al3 img{
-        width: 280px;
+        width: 18em;
         background-size: cover;
     }
 
     .img1 img{
-        width: 280px;
+        width: 18em;
         background-size: cover;
     }
 
@@ -92,7 +98,69 @@
 
     .tex{
         padding: 5px;
-        font-size: 8px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .tex1{
+        padding: 5px;
+        line-height: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .btn{
+        border-radius: 4px;
+        padding: 3.5px;
+        width: 50px;
+        border: none;
+        font-size: 9px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn1{
+        border-radius: 8px;
+        padding: 10px;
+        border: none;
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .al{
+        height: 55em;
+        background-color: gray;
+    }
+    .al3 img{
+        width: 18em;
+        background-size: cover;
+    }
+
+    .img1 img{
+        width: 18em;
+        background-size: cover;
+    }
+
+    .map{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .al2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tex{
+        padding: 5px;
+        font-size: 11px;
         text-align: center;
     }
 
@@ -187,7 +255,13 @@
     }
     
     .img1 img{ 
-         width: 37.5em; 
+         width: 36em; 
+         background-size: cover;
+    }
+    
+    .al3 img{
+        width: 36em;
+        background-size: cover;
     }
 }
 
@@ -253,7 +327,13 @@
     }
     
     .img1 img{ 
-         width: 37.5em; 
+         width: 36em; 
+         background-size: cover;
+    }
+    
+    .al3 img{
+        width: 36em;
+        background-size: cover;
     }
 }
 
@@ -319,7 +399,13 @@
     }
     
     .img1 img{ 
-         width: 37.5em; 
+         width: 36em; 
+         background-size: cover;
+    }
+    
+    .al3 img{
+        width: 36em;
+        background-size: cover;
     }
 }
 
@@ -385,6 +471,12 @@
     }
     
     .img1 img{ 
-         width: 37.5em; 
-    } 
+         width: 36em; 
+         background-size: cover;
+    }
+    
+    .al3 img{
+        width: 36em;
+        background-size: cover;
+    }
 }

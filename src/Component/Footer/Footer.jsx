@@ -58,7 +58,6 @@ const Footer = () => {
     </div>
         </div>
         
-     <hr className='hr' />
     <div className="copy">
         <div className="para">
             <div className="pit">
