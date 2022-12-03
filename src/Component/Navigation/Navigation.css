@@ -56,7 +56,7 @@
     color: white;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
     .nav{
         background-size: cover;
         position: sticky;
@@ -86,7 +86,7 @@
     .nav-logo{
         color: blueviolet;
         font-size: 10px;
-        font-family: fantasy;
+        font-family: 'Times New Roman', Times, serif;
         padding: 10px;
     }
 }
@@ -121,7 +121,7 @@
     .nav-logo{
         color: blueviolet;
         font-size: 10px;
-        font-family: fantasy;
+        font-family: 'Times New Roman', Times, serif;
         padding: 10px;
     }
 }

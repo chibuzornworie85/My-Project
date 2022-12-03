@@ -13,7 +13,6 @@
 
 .nav1{
     padding: 10px;
-    line-height: 25px;
     text-decoration: none;
 }
 
@@ -56,7 +55,7 @@
     margin-top: 24px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
     .footer1{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -65,7 +64,6 @@
 
     .nav1{
         padding: 5px;
-        line-height: 12.5px;
         text-decoration: none;
     }
 
@@ -111,7 +109,6 @@
 
     .nav1{
         padding: 5px;
-        line-height: 12.5px;
         text-decoration: none;
     }
 
@@ -163,7 +160,6 @@
     
     .nav1{
         padding: 10px;
-        line-height: 25px;
         text-decoration: none;
     }
     
@@ -223,7 +219,6 @@
     
     .nav1{
         padding: 10px;
-        line-height: 25px;
         text-decoration: none;
     }
     
@@ -284,7 +279,6 @@
     
     .nav1{
         padding: 10px;
-        line-height: 25px;
         text-decoration: none;
     }
     
@@ -345,7 +339,6 @@
     
     .nav1{
         padding: 10px;
-        line-height: 25px;
         text-decoration: none;
     }
     

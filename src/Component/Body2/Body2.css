@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
     .body{
         height: 20em;
         background-size: cover;
