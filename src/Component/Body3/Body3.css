@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 600px) {
   .bold {
-    height: 68em;
+    height: 100%;
     background-color: skyblue;
     background-size: cover;
     align-items: center;
