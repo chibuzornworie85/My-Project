@@ -55,56 +55,38 @@
     margin-top: 24px;
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 1024px) {
     .footer1{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         background-color: gray;
+        width: 100%;
     }
 
-    .nav1{
-        padding: 5px;
-        text-decoration: none;
-    }
-
-    .col-2 ul a{
-        color: black;
-    }
-
-    .yes{
-        padding: 5px;
-        font-size: 15px;
-    }
-
-    .nav1:hover{
-        color: white;
+    .pit{
+        display: flex;
+        justify-content: center;
     }
 
     .para{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-   }
-
-    .copy{
-        text-align: center;
-        background-color: gray;
+        display: inline;
     }
 
     .pls{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        text-align: center;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 100%;
     }
 }
-
 
 @media screen and (max-width: 600px) {
     .footer1{
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: gray;
+        width: 100%;
     }
 
     .nav1{
@@ -141,243 +123,5 @@
         flex-direction: column;
         padding: 10px;
         text-align: center;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .footer{
-        background-color: gray;
-    }
-    
-    .footer1{
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .col-2{
-        padding: 35px;
-    }
-    
-    .nav1{
-        padding: 10px;
-        text-decoration: none;
-    }
-    
-    .nav1:hover{
-        color: white;
-    }
-    
-    .col-2 ul{
-        list-style-type: none;
-    }
-    
-    .yes{
-        padding: 10px;
-        font-size: 20px;
-        color: darkblue;
-    }
-    
-    .copy{
-        background-size: cover;
-        padding: 20px;
-        background-color: gray;
-    }
-    
-    .para{
-         display: flex;
-         justify-content: space-around;
-    }
-    
-    .pls{
-        display: flex;
-        column-gap: 25px;
-        padding: 20px;
-    }
-    
-    .col-2 ul a{
-        color: black;
-    }
-    
-    .pit{
-        margin-top: 24px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .footer{
-        background-color: gray;
-    }
-    
-    .footer1{
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .col-2{
-        padding: 35px;
-    }
-    
-    .nav1{
-        padding: 10px;
-        text-decoration: none;
-    }
-    
-    .nav1:hover{
-        color: white;
-    }
-    
-    .col-2 ul{
-        list-style-type: none;
-    }
-    
-    .yes{
-        padding: 10px;
-        font-size: 20px;
-        color: darkblue;
-    }
-    
-    .copy{
-        background-size: cover;
-        padding: 20px;
-        background-color: gray;
-    }
-    
-    .para{
-         display: flex;
-         justify-content: space-around;
-    }
-    
-    .pls{
-        display: flex;
-        column-gap: 25px;
-        padding: 20px;
-    }
-    
-    .col-2 ul a{
-        color: black;
-    }
-    
-    .pit{
-        margin-top: 24px;
-    }
-
-}
-
-@media screen and (min-width: 992px) {
-    .footer{
-        background-color: gray;
-    }
-    
-    .footer1{
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .col-2{
-        padding: 35px;
-    }
-    
-    .nav1{
-        padding: 10px;
-        text-decoration: none;
-    }
-    
-    .nav1:hover{
-        color: white;
-    }
-    
-    .col-2 ul{
-        list-style-type: none;
-    }
-    
-    .yes{
-        padding: 10px;
-        font-size: 20px;
-        color: darkblue;
-    }
-    
-    .copy{
-        background-size: cover;
-        padding: 20px;
-        background-color: gray;
-    }
-    
-    .para{
-         display: flex;
-         justify-content: space-around;
-    }
-    
-    .pls{
-        display: flex;
-        column-gap: 25px;
-        padding: 20px;
-    }
-    
-    .col-2 ul a{
-        color: black;
-    }
-    
-    .pit{
-        margin-top: 24px;
-    }
-    
-}
-
-@media screen and (min-width: 1200px) {
-    .footer{
-        background-color: gray;
-    }
-    
-    .footer1{
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .col-2{
-        padding: 35px;
-    }
-    
-    .nav1{
-        padding: 10px;
-        text-decoration: none;
-    }
-    
-    .nav1:hover{
-        color: white;
-    }
-    
-    .col-2 ul{
-        list-style-type: none;
-    }
-    
-    .yes{
-        padding: 10px;
-        font-size: 20px;
-        color: darkblue;
-    }
-    
-    .copy{
-        background-size: cover;
-        padding: 20px;
-        background-color: gray;
-    }
-    
-    .para{
-         display: flex;
-         justify-content: space-around;
-    }
-    
-    .pls{
-        display: flex;
-        column-gap: 25px;
-        padding: 20px;
-    }
-    
-    .col-2 ul a{
-        color: black;
-    }
-    
-    .pit{
-        margin-top: 24px;
     }
 }

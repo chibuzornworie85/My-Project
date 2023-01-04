@@ -25,7 +25,6 @@
 
 .tex1{
     padding: 10px;
-    /* line-height: 20px; */
     font-size: 15px;
     text-align: center;
 }
@@ -68,66 +67,30 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 1024px) {
     .al{
-        height: 54em;
-        background-color: gray;
-    }
-    .al3 img{
-        width: 18em;
-        background-size: cover;
-    }
-
-    .img1 img{
-        width: 18em;
-        background-size: cover;
+        height: 100%;
     }
 
     .map{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
+        width: 100%;
     }
 
     .al2{
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
     }
 
-    .tex{
-        padding: 5px;
-        font-size: 11px;
-        text-align: center;
-    }
-
-    .tex1{
-        padding: 5px;
-        /* line-height: 15px; */
-        font-size: 12.5px;
-        text-align: center;
-    }
-
-    .btn{
-        border-radius: 4px;
-        padding: 3.5px;
-        width: 50px;
-        border: none;
-        font-size: 9px;
-        margin: 10px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .btn1{
-        border-radius: 8px;
-        padding: 10px;
-        border: none;
-        font-size: 9px;
-        display: flex;
-        justify-content: center;
-    }
+    .img1 img{ 
+        width: 100%; 
+        background-size: cover;
+   }
+   
+   .al3 img{
+       width: 100%;
+       background-size: cover;
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -166,7 +129,6 @@
 
     .tex1{
         padding: 5px;
-        /* line-height: 15px; */
         font-size: 12.5px;
         text-align: center;
     }
@@ -189,294 +151,5 @@
         font-size: 9px;
         display: flex;
         justify-content: center;
-    }
-}
-
-
-@media screen and (min-width: 600px) {
-    .al{
-        height: 50.3em;
-        background-color: gray;
-    }
-    
-    .map{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    
-    .al2{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .tex{
-        color: white;
-        padding: 10px;
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    .tex1{
-        padding: 10px;
-        /* line-height: 20px; */
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    .btn{
-        border-radius: 8px;
-        padding: 7px;
-        width: 100px;
-        border: none;
-        font-size: 18px;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn a:hover{
-        color: gray;
-    }
-    
-    .btn a{
-        text-decoration: none;
-    }
-    
-    .btn1{
-        border-radius: 8px;
-        padding: 10px;
-        border: none;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .img1 img{ 
-         width: 36em; 
-         background-size: cover;
-    }
-    
-    .al3 img{
-        width: 36em;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .al{
-        height: 50.3em;
-        background-color: gray;
-    }
-    
-    .map{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    
-    .al2{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .tex{
-        color: white;
-        padding: 10px;
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    .tex1{
-        padding: 10px;
-        /* line-height: 20px; */
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    .btn{
-        border-radius: 8px;
-        padding: 7px;
-        width: 100px;
-        border: none;
-        font-size: 18px;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn a:hover{
-        color: gray;
-    }
-    
-    .btn a{
-        text-decoration: none;
-    }
-    
-    .btn1{
-        border-radius: 8px;
-        padding: 10px;
-        border: none;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .img1 img{ 
-         width: 36em; 
-         background-size: cover;
-    }
-    
-    .al3 img{
-        width: 36em;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .al{
-        height: 50.3em;
-        background-color: gray;
-    }
-    
-    .map{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    
-    .al2{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .tex{
-        color: white;
-        padding: 10px;
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    .tex1{
-        padding: 10px;
-        /* line-height: 20px; */
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    .btn{
-        border-radius: 8px;
-        padding: 7px;
-        width: 100px;
-        border: none;
-        font-size: 18px;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn a:hover{
-        color: gray;
-    }
-    
-    .btn a{
-        text-decoration: none;
-    }
-    
-    .btn1{
-        border-radius: 8px;
-        padding: 10px;
-        border: none;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .img1 img{ 
-         width: 36em; 
-         background-size: cover;
-    }
-    
-    .al3 img{
-        width: 36em;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .al{
-        height: 50.3em;
-        background-color: gray;
-    }
-    
-    .map{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    
-    .al2{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .tex{
-        color: white;
-        padding: 10px;
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    .tex1{
-        padding: 10px;
-        /* line-height: 20px; */
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    .btn{
-        border-radius: 8px;
-        padding: 7px;
-        width: 100px;
-        border: none;
-        font-size: 18px;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn a:hover{
-        color: gray;
-    }
-    
-    .btn a{
-        text-decoration: none;
-    }
-    
-    .btn1{
-        border-radius: 8px;
-        padding: 10px;
-        border: none;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .img1 img{ 
-         width: 36em; 
-         background-size: cover;
-    }
-    
-    .al3 img{
-        width: 36em;
-        background-size: cover;
     }
 }

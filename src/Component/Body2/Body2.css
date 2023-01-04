@@ -5,52 +5,19 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 1024px) {
+ 
+}
+
+@media screen and (max-width: 667px) {
     .body{
-        height: 20em;
-        background-size: cover;
+        height: 100vh;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .body{
         height: 20em;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .body{
-        height: 65em;
-        background: url('../../Images/lap-image.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .body{
-        height: 65em;
-        background: url('../../Images/lap-image.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .body{
-        height: 65em;
-        background: url('../../Images/lap-image.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .body{
-        height: 65em;
-        background: url('../../Images/lap-image.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
